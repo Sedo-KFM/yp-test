@@ -1,13 +1,13 @@
 package com.kiriakov.magtrain;
 
 import com.kiriakov.magtrain.entities.Group;
-import com.kiriakov.magtrain.entities.Participant;
 
 import java.util.HashMap;
+import java.util.Map;
 
 
 public class Database {
-    static HashMap<Integer, Group> groups;
+    static Map<Integer, Group> groups;
     private static int nextId = 1;
 
     static {
